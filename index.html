@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="./css/styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__wrap">
+                <div class="header__logo">
+                    <a href="#"><img src="./images/download.png" alt="#"></a>
+                </div>
+                <div class="header__menu">
+                    <ul class="clearfix">
+                        <li class="has-child">
+                            <a href="#">thương hiệu</a>
+                            <ul class="menu-child">
+                                <li><a href="#">thông cáo báo chí</a></li>
+                                <li><a href="#">trách nhiệm cộng động</a></li>
+                            </ul>
+                        </li>
+                        <li class="has-child-2">
+                            <a href="#">chuyện cà phê</a>
+                            <ul class="menu-child">
+                                <li><a href="#">hành trình từ nông trại đến ly cà phê</a></li>
+                                <li><a href="#">hạt cà phê the coffee house</a></li>
+                                <li><a href="#">Nghệ thuật pha chế</a></li>
+                                <li><a href="#">workshop cà phê </a></li>
+                                <li><a href="#">truy xuất nguồn gốc</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">thực đơn</a></li>
+                        <li><a href="#">tin tức</a></li>
+                        <li><a href="#">cửa hàng</a></li>
+                        <li><a href="#">đăng nhập</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="main">
+        <div class="banner">
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                    <a href="#"><img src="./images/unnamed.jpg" alt="#"></a>
+                </div>
+        
+                <div class="mySlides fade">
+                    <a href="#"><img src="./images/unnamed1.jpg" alt="#"></a>
+                </div>
+        
+                <div class="mySlides fade">
+                    <a href="#"><img src="./images/unnamed2.jpg" alt="#"></a>
+                </div>
+            </div>
+        
+            <div class="dots">
+                <span class="dot" onclick="currentSlide(0)"></span> 
+                <span class="dot" onclick="currentSlide(1)"></span> 
+                <span class="dot" onclick="currentSlide(2)"></span> 
+            </div>
+        </div>
+        <div class="menu-home">
+            <div class="container">
+                <div class="menu-top">
+                    <h2 class="menu-home__title">Menu</h2>
+                    <div class="viewmore-menu-home">
+                        <a href="#" class="viewmore-btn">xem thêm tất cả sản phẩm</a>
+                    </div>
+                </div>
+
+                <div class="menu-list">
+                    <div class="menu-list__wrap d-flex mb-3">
+                        <div class="menu-list__item col-xs">
+                            <div class="menu-list__image">
+                                <img src="./images/download.jpg" alt="#">
+                            </div>
+                            <h3><a href="#">trà oolong bưởi mật ong</a></h3>
+                            <div class="price_product_item">
+                                <p>50000 đ</p>
+                            </div>
+                            <div class="menu-list__btn">
+                                <a href="#" class="btn-action">mua ngay</a>
+                                <a href="#" class="btn-view">tìm hiểu thêm</a>
+                            </div>
+                        </div>
+                        <div class="menu-list__item col-xs">
+                            <div class="menu-list__image">
+                                <img src="./images/download.jpg" alt="#">
+                            </div>
+                            <h3><a href="#">trà oolong bưởi mật ong</a></h3>
+                            <div class="price_product_item">
+                                <p>50000 đ</p>
+                            </div>
+                            <div class="menu-list__btn">
+                                <a href="#" class="btn-action">mua ngay</a>
+                                <a href="#" class="btn-view">tìm hiểu thêm</a>
+                            </div>
+                        </div>
+                        <div class="menu-list__item col-xs">
+                            <div class="menu-list__image">
+                                <img src="./images/download.jpg" alt="#">
+                            </div>
+                            <h3><a href="#">trà oolong bưởi mật ong</a></h3>
+                            <div class="price_product_item">
+                                <p>50000 đ</p>
+                            </div>
+                            <div class="menu-list__btn">
+                                <a href="#" class="btn-action">mua ngay</a>
+                                <a href="#" class="btn-view">tìm hiểu thêm</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-list__wrap d-flex mb-3">
+                        <div class="menu-list__item col-xs-4">
+                            <div class="menu-list__image">
+                                <img src="./images/download.jpg" alt="#">
+                            </div>
+                            <h3><a href="#">trà oolong bưởi mật ong</a></h3>
+                            <div class="price_product_item">
+                                <p>50000 đ</p>
+                            </div>
+                            <div class="menu-list__btn">
+                                <a href="#" class="btn-action">mua ngay</a>
+                                <a href="#" class="btn-view">tìm hiểu thêm</a>
+                            </div>
+                        </div>
+                        <div class="menu-list__item col-xs-4">
+                            <div class="menu-list__image">
+                                <img src="./images/download.jpg" alt="#">
+                            </div>
+                            <h3><a href="#">trà oolong bưởi mật ong</a></h3>
+                            <div class="price_product_item">
+                                <p>50000 đ</p>
+                            </div>
+                            <div class="menu-list__btn">
+                                <a href="#" class="btn-action">mua ngay</a>
+                                <a href="#" class="btn-view">tìm hiểu thêm</a>
+                            </div>
+                        </div>
+                        <div class="menu-list__item col-xs-4">
+                            <div class="menu-list__image">
+                                <img src="./images/download.jpg" alt="#">
+                            </div>
+                            <h3><a href="#">trà oolong bưởi mật ong</a></h3>
+                            <div class="price_product_item">
+                                <p>50000 đ</p>
+                            </div>
+                            <div class="menu-list__btn">
+                                <a href="#" class="btn-action">mua ngay</a>
+                                <a href="#" class="btn-view">tìm hiểu thêm</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="blog-home">
+            <div class="container">
+                <div class="blog-home__top">
+                    <h2 class="blog-home__title">Menu</h2>
+                    <div class="viewmore-blog-home">
+                        <a href="#" class="viewmore-btn">xem thêm tất cả sản phẩm</a>
+                    </div>
+                </div>
+                <div class="blog-home__bottom">
+                    <div class="blog-home__image">
+                        <img src="./images/website_blog_4424efb9945040f390959fd56838e723.jpg" alt="">
+                    </div>
+                    <div class="blog-home__tags">
+                        <span>Tin Tức</span>
+                    </div>
+                    <h3><a href="#">trải nghiệm tính năng pick up - chủ động đến lấy và không chờ đợi</a></h3>
+                    <div class="blog-home__content">
+                        <p>Bạn đã sẵn sàng trải nghiệm tính năng PICK UP mới nhất tại app The Coffee House?Từ ngày 09/05, bạn đã có thể đặt món tiện lợi hơn, chủ động...</p>
+                    </div>
+                    <div class="blog-home__btn">
+                        <a href="#" class="btn-view">xem thêm</a>
+                    </div>
+                </div>
+                <div class="blog-home__list">
+                    <div class="blog-home__item">
+                        <div class="blog-home__image">
+                            <img src="./images/unnamed.jpg" alt="">
+                        </div>
+
+                        <div class="blog-home__wrap">
+                            <div class="blog-home__tags">
+                                <span>Tin Tức</span>
+                            </div>
+                            <h3><a href="#">The Coffee House đã trở lại - Mình cà phê nhé!</a></h3>
+                            <div class="blog-home__content">
+                                <p>The Coffee House xin thông báo lịch hoạt động của 154 cửa hàng trên toàn quốc từ ngày 25/04/2020.Nhằm đảm bảo sức khoẻ của bạn và cộng đồng trong thời...</p>
+                            </div>
+                            <div class="blog-home__btn">
+                                <a href="#" class="btn-view">xem thêm</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="blog-home__item">
+                        <div class="blog-home__image">
+                            <img src="./images/unnamed1.jpg" alt="">
+                        </div>
+
+                        <div class="blog-home__wrap">
+                            <div class="blog-home__tags">
+                                <span>Tin Tức</span>
+                            </div>
+                            <h3><a href="#">Khép lại Hành trình "Từ hành động nhỏ - Tiếp sức cho điều lớn lao"</a></h3>
+                            <div class="blog-home__content">
+                                <p>Cảm ơn bạn vì đã cùng The Coffee House khép lại 1 hành trình thật ý nghĩa và tử tế - 4 tuần qua, giữa thời điểm không hề dễ...</p>
+                            </div>
+                            <div class="blog-home__btn">
+                                <a href="#" class="btn-view">xem thêm</a>
+                            </div>
+                        </div>   
+                    </div>
+
+                    <div class="blog-home__item">
+                        <div class="blog-home__image">
+                            <img src="./images/unnamed2.jpg" alt="">
+                        </div>
+
+                        <div class="blog-home__wrap">
+                            <div class="blog-home__tags">
+                                <span>Tin Tức</span>
+                            </div>
+                            <h3><a href="#">Ở NHÀ ĐỔI VỊ CÙNG TRÀ SỮA MẮC CA TRÂN CHÂU TRẮNG</a></h3>
+                            <div class="blog-home__content">
+                                <p>Một "làn gió mới" mà The Coffee House mang đến cho bạn trong tháng 4 - TRÀ SỮA MẮC CA TRÂN CHÂU TRẮNG sẽ chính thức lên kệ từ ngày...</p>
+                            </div>
+                            <div class="blog-home__btn">
+                                <a href="#" class="btn-view">xem thêm</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="store">
+            <div class="container">
+                <h2 class="store__title">Cửa hàng</h2>
+
+                <div class="store__wrap">
+                    <div class="store__content">
+                        <h3 class="store__sub-title">the coffee house signature</h3>
+
+                        <div class="store__text">
+                            <p>Với những nghệ nhân rang tâm huyết và đội ngũ Barista tài năng cùng những câu chuyện cà phê đầy cảm hứng, ngôi nhà Signature 19B Phạm Ngọc Thạch, Q.3, TP.HCM là không gian dành riêng cho những ai trót yêu say đắm hương vị của những hạt cà phê tuyệt hảo.</p>
+                        </div>
+                    </div>
+
+                    <div class="store__image">
+                        <img src="./images/store.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="footer__image">
+                    <img src="./images/download.png" alt="#">
+                </div>
+                <div class="footer__top">
+                    <div class="footer__item">
+                        <h3 class="footer__title">ABOUT</h3>				
+                        <ul class="footer__linklists">
+                            <li><a href="#" title="Về Chúng Tôi">Về Chúng Tôi</a></li>
+                            <li><a href="#" title="Hạt Cà Phê The Coffee House">Hạt Cà Phê The Coffee House</a></li>
+                            <li><a href="#" title="Blog">Blog</a></li>
+                            <li><a href="#" title="Cơ Hội Nghề Nghiệp">Cơ Hội Nghề Nghiệp</a></li>
+                            <li><a href="#" title="Cửa Hàng">Cửa Hàng</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__item">
+                        <div class="hotline__footer">
+                            <h3 class="footer__title">Always-on Support</h3>
+                            <p>Delivery 1800 6936  (07:00-21:00)</p>
+                            <p>Support 02871 087 088 (07:00-21:00) </p>
+                        </div>
+                    </div>
+                    <div class="footer__item">
+                        <div class="address__footer">
+                            <h3 class="footer__title">Address</h3>
+                            <p>62 Tran Quang Khai, Tan Dinh, Quan 1 Ho Chi Minh, Vietnam</p>
+                            <p>02871 087 088</p><p>hi@thecoffeehouse.vn</p>
+                        </div>
+                    </div>
+                    <div class="footer__item">
+                        <h3 class="footer__title">Delivery</h3>				
+                        <ul class="footer__linklists">
+                            <li><a href="/" title="Shipping methods">Shipping methods</a></li>
+                            <li><a href="/" title="Payment">Payment</a></li>
+                            <li><a href="/" title="Cash voucher">Cash voucher</a></li>
+                            <li><a href="/" title="Return">Return</a></li>
+                            <li><a href="/" title="Exchange">Exchange</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <div class="copyright_footer">
+                    <div class="copyright_text">
+                        <p></p>Copyright © 2018 The Coffee House. All rights reserved.
+                    </div>
+                    <div class="copyright_menu">
+                        <ul>
+                            <li><a href="https://order.thecoffeehouse.com/policy">Privacy Policy</a></li>
+                            <li><a href="https://order.thecoffeehouse.com/term">Terms of Use</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="./js/index.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+</body>
+</html>
