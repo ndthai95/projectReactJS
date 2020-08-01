@@ -1,0 +1,137 @@
+.block {
+	background: url('https://file.hstatic.net/1000075078/file/bg_blog_home.png') no-repeat left top, #191919;
+	padding: 80px 0 20px;
+
+	img {
+		max-width: 100%;
+	}
+	a:hover {
+		text-decoration: none;
+	}
+
+	&__header {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		margin-bottom: 30px;
+		align-items: flex-end;
+	}
+
+	&__title {
+		font-size: 42px;
+		line-height: 1.4;
+		color: #ea8025;
+		font-weight: 700;
+
+		&::after {
+			content: '';
+			width: 50%;
+			height: 4px;
+			background-color: #fff;
+			display: block;
+		}
+
+		&--black::after {
+			background-color: #000;
+		}
+	}
+
+	&__link-page {
+    font-size: 18px;
+    line-height: 1.4;
+    font-weight: 700;
+    color: #EA8025;
+    padding: 10px 50px;
+    border: 2px solid #fff;
+    display: block;
+    cursor: pointer;
+	}
+
+	&__body {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+	}
+
+	.block-item {
+    width: calc(100%/3);
+    padding: 0 15px;
+		margin-bottom: 30px;
+		
+		&__image {
+			position: relative;
+			display: block;
+			overflow: hidden;
+
+			&::before {
+				padding-top: 48%;
+				content: '';
+				position: relative;
+				display: block;
+			}
+
+			&__inner {
+				background: #c5d2d9 no-repeat 50%;
+				background-image: url('https://file.hstatic.net/1000075078/article/website_blog_4424efb9945040f390959fd56838e723_1024x1024.jpg');
+				background-size: cover;
+				position: absolute;
+				top: 0;
+				left: 0;
+				bottom: 0;
+				right: 0;
+		}
+		}
+
+		&__contents {
+			padding: 25px;
+			background-color: #fff;
+
+			&__status {
+				font-size: 16px;
+				font-weight: 700;
+				color: #EA8025;
+			}
+
+			&__title {
+				font-size: 24px;
+				font-weight: 700;
+				margin-bottom: 15px;
+				text-transform: uppercase;
+
+				a {
+					text-decoration: none;
+					color: #191919;
+					transition: .5s;
+
+					&:hover {
+						color: #EA8025;
+					}
+				}
+			}
+
+			&__description {
+				margin-bottom: 10px;
+				font-size: 14px;
+				line-height: 24px;
+			}
+
+			&__button a {
+				font-size: 16px;
+				font-weight: 700;
+				color: #fff;
+				border: 2px solid #EA8025;
+				padding: 8px 25px;
+				display: inline-block;
+				background: #EA8025;
+			}
+		}
+
+		&--highlight {
+			width: 100%;
+
+			.block-item__image {
+				max-height: 400px;
+			}
+		}
+	}
+}
