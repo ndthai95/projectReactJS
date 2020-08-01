@@ -1,9 +1,15 @@
 import React from 'react';
 import Login from './Component/login/Login';
+import Block from './Component/block/Block';
+import Store from './Component/store/Store';
 
 function App() {
   return (
-    <Login></Login>
+    <div>
+      {/* <Login></Login> */}
+      <Block></Block>
+      <Store></Store>
+    </div>
   );
 }
 
