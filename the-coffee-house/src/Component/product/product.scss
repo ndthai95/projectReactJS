@@ -1,0 +1,156 @@
+.product {
+    background: #f5f5f5;
+    padding: 80px 0 20px;
+    position: relative;
+
+    &__wrap {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    &__item {
+        width: calc((100% - 60px) / 3 );
+        margin-bottom: 60px;
+
+        h3 {
+            font-size: 20px;
+            max-height: 55px;
+            height: 55px;
+        }
+
+        h3 a {
+            color: #000;
+
+            &:hover {
+                color: #f68122;
+            }
+        }
+    }
+
+    &__image {
+        position: relative;
+        display: block;
+        overflow: hidden;
+
+        &::before {
+            padding-top: 100%;
+            content: '';
+            position: relative;
+            display: block;
+        }
+
+        &__inner {
+            background: #c5d2d9 no-repeat;
+            background-image: url('https://product.hstatic.net/1000075078/product/tra_buoi_5c4c5ce2d4e44042a069ec9011ef1a9f_large.jpg');
+            background-size: cover;
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+        }
+    }
+    
+    &__price {
+        font-weight: bold;
+        color: #f68122;
+
+        p {
+            font-size: 24px;
+        }
+    }
+    
+    &__menu {
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: space-between;
+        margin-bottom: 50px;
+    }
+
+    &__image, &__menu h3, &__price {
+        margin-bottom: 20px;;
+    }
+
+    &__title {
+        color: #f68122;
+        position: relative;
+        font-size: 30px;
+        margin: 0;
+
+        &:after {
+            content: '';
+            height: 4px;
+            background: #191919;
+            width: 50%;
+            display: block;
+        }
+    }
+
+    &__btn {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    
+    .btn-action {
+        background-color: #f68122;
+        border: 2px solid #f68122;
+        padding: 7px 10px;
+        color: #fff;
+        font-weight: bold;
+        font-size: 14px;
+        text-align: center;
+
+        &:hover {
+            background-color: #fff;
+            color: #f68122;
+        }
+    }
+
+    .btn-view {
+        border: 2px solid #f68122;
+        padding: 7px 10px;
+        color: #f68122;
+        font-weight: bold;
+        margin-left: 30px;
+        font-size: 14px;
+        text-align: center;
+
+        &:hover {
+            background-color: #f68122;
+            color: #fff;
+        }
+    }
+    
+    .viewmore-btn {
+        color: #fff;
+        background-color: #000;
+        font-weight: bold;
+        padding: 8px 20px;
+        border: 2px solid #000;
+        text-align: center;
+        text-transform: uppercase;
+        transition: color 0.45s cubic-bezier(0.785, 0.135, 0.15, 0.86),border 0.45s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+
+        &:hover {
+            background-color: transparent;
+            color: #000;
+        }
+
+        &:before {
+            background: #000;
+            content: '';
+        }
+
+        &:hover:before {
+            transform: scale(0, 1);
+        }
+    }
+
+    .btn-action, .btn-view, .viewmore-btn {
+        display: block;
+        text-transform: uppercase;
+    }
+}
