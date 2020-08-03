@@ -1,0 +1,133 @@
+.header {
+    background-color: #191919;
+
+    &__wrap {
+        display: flex;
+        padding: 10px 0;
+    }
+
+    &__logo {
+        a {
+            display: block;
+        }
+    }
+
+    &__menu {
+        padding-left: 25px;
+        display: flex;
+        align-items: center;
+
+        ul li {
+            list-style-type: none;
+            display: inline-block;
+            padding: 15px 10px;
+            position: relative;
+
+            &:before {
+                position: absolute;
+                content: '';
+                bottom: -32px;
+                left: 0;
+                width: 100%;
+                opacity: 0;
+                transform: scale(0, 1);
+                transform-origin: left center;
+                border-bottom: 4px solid #f68122;
+                transition: transform 0.7s, opacity 0.3s,
+            }
+
+            &:hover:before {
+                opacity: 1;
+                transform: scale(1, 1);
+            }
+        }
+
+        a {
+            text-decoration: none;
+            text-transform: uppercase;
+            font-weight: bold;
+            font-size: 16px;
+            letter-spacing: 0;
+            color: #fff;
+            cursor: pointer;
+
+            &:hover {
+                color: #fff;
+            }
+        }
+
+        ul ul {
+            position: absolute;
+            top: 162%;
+            left: 0;
+            z-index: 99;
+            display: block;
+            background: #fff;
+            color: #f68122;
+            width: 250px;
+            visibility: hidden;
+            opacity: 0;
+            transition: all .5s ease;
+        }
+
+        .menu-child li::before {
+            bottom: 0px;
+        }
+    }
+
+    .menu-child {
+        padding: 15px;
+
+        li {
+            padding: 5px !important;
+        }
+
+        li a {
+            color: #191919;
+            font-size: 14px;
+            font-weight: bold;
+            position: relative;
+
+            &:hover {
+                color: #191919;
+            }
+        }
+    }
+    
+    .has-child:hover .menu-child {
+        visibility: visible;
+        opacity: 1;
+        display: block;
+    }
+    
+    .has-child-2:hover .menu-child {
+        visibility: visible;
+        opacity: 1;
+        display: block;
+    }
+}
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 740px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1116px;
+    }
+}
