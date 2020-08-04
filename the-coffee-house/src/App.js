@@ -1,9 +1,13 @@
 import React from 'react';
 import Login from './Component/login/Login';
+import MainMenu from './Component/main-menu/MainMenu';
 
 function App() {
   return (
-    <Login></Login>
+    <div>
+      <Login></Login>
+      <MainMenu></MainMenu>
+    </div>
   );
 }
 
