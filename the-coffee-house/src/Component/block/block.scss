@@ -17,34 +17,11 @@
 		align-items: flex-end;
 	}
 
-	&__title {
-		font-size: 42px;
-		line-height: 1.4;
-		color: #ea8025;
-		font-weight: 700;
-
-		&::after {
-			content: '';
-			width: 50%;
-			height: 4px;
-			background-color: #fff;
-			display: block;
-		}
-
-		&--black::after {
-			background-color: #000;
-		}
-	}
-
 	&__link-page {
-    font-size: 18px;
-    line-height: 1.4;
-    font-weight: 700;
-    color: #EA8025;
-    padding: 10px 50px;
-    border: 2px solid #fff;
-    display: block;
-    cursor: pointer;
+		font-size: 18px;
+		line-height: 1.4;
+		font-weight: 700;
+		padding: 10px 50px;
 	}
 
 	&__body {
@@ -118,11 +95,8 @@
 			&__button a {
 				font-size: 16px;
 				font-weight: 700;
-				color: #fff;
-				border: 2px solid #EA8025;
 				padding: 8px 25px;
 				display: inline-block;
-				background: #EA8025;
 			}
 		}
 
