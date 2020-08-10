@@ -7,9 +7,9 @@ class Block extends Component {
       <div className="block">
         <div className="container">
           <div className="block__header">
-            <div className="block__title">BLOG</div>
+            <h2 className="block__title c-title">BLOG</h2>
             <div>
-              <span className="block__link-page">XEM THÊM</span>
+              <span className="block__link-page c-button-white">XEM THÊM</span>
             </div>
           </div>
           <div className="block__body">
@@ -28,7 +28,7 @@ class Block extends Component {
                   bạn và cộng đồng trong thời...
                 </p>
                 <div className="block-item__contents__button">
-                  <a href="#">XEM THÊM</a>
+                  <a href="#" className="c-button-orange">XEM THÊM</a>
                 </div>
               </div>
             </div>
@@ -47,7 +47,7 @@ class Block extends Component {
                   bạn và cộng đồng trong thời...
                 </p>
                 <div className="block-item__contents__button">
-                  <a href="#">XEM THÊM</a>
+                  <a href="#" className="c-button-orange">XEM THÊM</a>
                 </div>
               </div>
             </div>
@@ -66,7 +66,7 @@ class Block extends Component {
                   bạn và cộng đồng trong thời...
                 </p>
                 <div className="block-item__contents__button">
-                  <a href="#">XEM THÊM</a>
+                  <a href="#" className="c-button-orange">XEM THÊM</a>
                 </div>
               </div>
             </div>
@@ -85,7 +85,7 @@ class Block extends Component {
                   bạn và cộng đồng trong thời...
                 </p>
                 <div className="block-item__contents__button">
-                  <a href="#">XEM THÊM</a>
+                  <a href="#" className="c-button-orange">XEM THÊM</a>
                 </div>
               </div>
             </div>
