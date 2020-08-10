@@ -14,6 +14,7 @@ function App() {
       <MainSlider></MainSlider>
       <Block></Block>
       <Store></Store>
+      <Footer></Footer>
     </div>
   );
 }
