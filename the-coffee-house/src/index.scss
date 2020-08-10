@@ -11,3 +11,22 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+h1, h2, h3, h4 {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+p {
+  font-size: 14px;
+  line-height: 20px;
+}
