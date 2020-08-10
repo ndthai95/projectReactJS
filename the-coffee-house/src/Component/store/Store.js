@@ -27,6 +27,28 @@ class Store extends Component {
 									<p className="store__slider__name">682 Trần Hưng Đạo</p>
 								</div>
 							</div>
+							<div className="col-3">
+								<div className="store__slider__item">
+									<div className="store__slider__background"></div>
+									<img className="store__slider__image" src="https://tchmobileapp.s3.ap-southeast-1.amazonaws.com/store/5e0968f6d6af531e6178a3c2_Screen%20Shot%202020-05-16%20at%2022.56.34.png" alt="x" /> 
+									<p className="store__slider__name">682 Trần Hưng Đạo</p>
+								</div>
+							</div>
+							<div className="col-3">
+								<div className="store__slider__item">
+									<div className="store__slider__background"></div>
+									<img className="store__slider__image" src="https://tchmobileapp.s3.ap-southeast-1.amazonaws.com/store/5e0968f6d6af531e6178a3c2_Screen%20Shot%202020-05-16%20at%2022.56.34.png" alt="x" /> 
+									<p className="store__slider__name">682 Trần Hưng Đạo</p>
+								</div>
+							</div>
+							<div className="col-3">
+								<div className="store__slider__item">
+									<div className="store__slider__background"></div>
+									<img className="store__slider__image" src="https://tchmobileapp.s3.ap-southeast-1.amazonaws.com/store/5e0968f6d6af531e6178a3c2_Screen%20Shot%202020-05-16%20at%2022.56.34.png" alt="x" /> 
+									<p className="store__slider__name">682 Trần Hưng Đạo</p>
+									
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
