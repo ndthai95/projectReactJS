@@ -57,8 +57,8 @@ class Footer extends Component {
                             </div>
                             <div class="copyright_menu">
                                 <ul>
-                                    <li><a href="https://order.thecoffeehouse.com/policy">Privacy Policy</a></li>
-                                    <li><a href="https://order.thecoffeehouse.com/term">Terms of Use</a></li>
+                                    <li><a href="#">Privacy Policy</a></li>
+                                    <li><a href="#">Terms of Use</a></li>
                                 </ul>
                             </div>
                         </div>
