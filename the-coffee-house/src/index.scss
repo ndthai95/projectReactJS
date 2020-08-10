@@ -59,4 +59,21 @@ p, h1, h2, h3, h4, h5, h6 {
 
 .c-button-white {
   @include button( #fff, #EA8025, #fff, #000, #EA8025)
+h1, h2, h3, h4 {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+p {
+  font-size: 14px;
+  line-height: 20px;
 }
