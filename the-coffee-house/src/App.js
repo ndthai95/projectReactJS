@@ -4,6 +4,7 @@ import MainMenu from './Component/main-menu/MainMenu';
 import Block from './Component/block/Block';
 import Store from './Component/store/Store';
 import MainSlider from './Component/main-slider/MainSlider';
+import Footer from './Component/footer/Footer';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <MainSlider></MainSlider>
       <Block></Block>
       <Store></Store>
+      <Footer></Footer>
     </div>
   );
 }
