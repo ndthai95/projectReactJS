@@ -5,6 +5,7 @@ import Block from './Component/block/Block';
 import Store from './Component/store/Store';
 import MainSlider from './Component/main-slider/MainSlider';
 import Product from './Component/product/Product';
+import Footer from './Component/footer/Footer';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Product></Product>
       <Block></Block>
       <Store></Store>
+      <Footer></Footer>
     </div>
   );
 }
